@@ -1,0 +1,26 @@
+# Editores, virtualenv, compilados de python
+/.vscode
+/env
+*.pyc
+
+# Archivos estaticos y media
+/static/bower_components
+/bower_components
+/media/*
+/static/docs
+
+# bin
+/bin
+
+#configuracion local del proyecto
+/codegis_access/local_settings.py
+
+# Migraciones
+/*/migrations
+
+# Cache
+/*/__pycache__
+
+# llaves publicas y privadas
+id_rsa
+id_rsa.pub

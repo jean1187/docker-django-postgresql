@@ -1,0 +1,108 @@
+.navbar-login{
+    width  : 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session{
+    padding       : 10px;
+    padding-bottom: 0px;
+    padding-top   : 0px;
+}
+
+.icon-size{
+    font-size: 87px;
+}
+
+.container{
+  width : 95%;
+}
+
+.btn-active{
+    background-color: gray;
+    color           : white;
+}
+
+.errorlist{
+    list-style-type: none;
+    padding        : 0px;
+}
+
+.form-group.required .control-label:before{
+    color      : red;
+    content    : "*";
+    position   : absolute;
+    font-weight: bold;
+    font-size  : 30px;
+    margin-left: -13px;
+    margin-top :  -4px;
+}
+.redAsterisk{
+    color      : red;
+    font-weight: bold;
+    font-size  : 30px;
+}
+.producto{
+      border-top: 2px solid silver;
+      padding   : 20px;
+}
+.log {
+  border-top   : 2px solid silver;
+  border-bottom: 2px solid silver;
+}
+.text-med{
+    font-size: 15px;
+}
+table.data{
+    width: 100% !Important;
+}
+.deleteDate{
+    bottom  : 34px;
+    position: relative;
+    float   : right;
+}
+
+.defaultValue{
+    position   : absolute;
+    top        :5px;
+    margin-left: 5px;
+}
+.dateBtn{
+    border-radius: 0px 5px 5px 0px !important;
+}
+
+.acciones{
+    min-width: 90px;
+}
+
+span.mensaje{
+    color      : #CA0008;
+    font-weight: bolder;
+}
+
+/*http://bootsnipp.com/snippets/featured/input-validation-colorful-input-groups*/
+.input-group-addon.primary {
+    color           : rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color    : rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color           : rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color    : rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color           : rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color    : rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color           : rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color    : rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color           : rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color    : rgb(212, 63, 58);
+}

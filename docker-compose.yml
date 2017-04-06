@@ -1,0 +1,19 @@
+ version: '2'
+ services:
+   db:
+     image: postgres:9.6
+     environment:
+      - POSTGRES_DB=codegis_access
+      - POSTGRES_USER=codegis
+      - POSTGRES_PASSWORD=codegispwd
+     ports:
+       - "5432:5432"
+   web:
+     build: .
+     command: python codegis_access/manage.py runserver 0.0.0.0:8000
+     volumes:
+       - .:/code
+     ports:
+       - "8000:8000"
+     links:
+       - db
